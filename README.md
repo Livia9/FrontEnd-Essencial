@@ -10,7 +10,7 @@ Aqui você vai encontrar anotações, exercícios e mini projetos feitos durante
 - Organizar anotações e exercícios
 - Acompanhar minha evolução na área
 
-## 🚀 Tecnologias e Ferramentas
+## 🛠️ Tecnologias e Ferramentas
 - HTML5
 - CSS3
 - JavaScript (ES6+)
@@ -18,15 +18,13 @@ Aqui você vai encontrar anotações, exercícios e mini projetos feitos durante
 - Git + GitHub – controle de versão e hospedagem
 - Figma – para esboços e ideias de layout
 
-## 🧩 Extensões do VS Code que uso
+## 🧩 Extensões do VS Code que utilizo
 
 - **Prettier - Code formatter** (Formata automaticamente o código para manter o estilo limpo e padronizado).
 
 - **Live Server** (recarrega a página automaticamente a cada alteração).
 
 - **Material Icon Theme** (Deixa os ícones do explorador de arquivos mais bonitos e intuitivos).
-
-- **Panda Theme** (Tema escuro com uma paleta suave e agradável pros olhos).
 
 - **Color Highlight** (Mostra uma prévia das cores diretamente no código (útil pra CSS)).
 
