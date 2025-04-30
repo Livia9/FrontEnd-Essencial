@@ -32,3 +32,9 @@ Aqui você vai encontrar anotações, exercícios e mini projetos feitos durante
 
 - **Open PHP/HTML/JS In Browser** (Abre páginas HTML, JS ou PHP no seu navegador padrão).
 
+## 📂 Estrutura
+
+frontend-essencial/
+├── css/            # Estudos e exercícios de CSS
+├── javascript/     # Estudos e exercícios de JavaScript
+├── assets/         # Imagens que utilizei nos exercicios e projetos
