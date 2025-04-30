@@ -29,3 +29,6 @@ Aqui você vai encontrar anotações, exercícios e mini projetos feitos durante
 - **Color Highlight** (Mostra uma prévia das cores diretamente no código (útil pra CSS)).
 
 - **Auto Rename Tag** (Renomeia automaticamente a tag de fechamento quando você altera a de abertura (e vice-versa)).
+
+- **Open PHP/HTML/JS In Browser** (Abre páginas HTML, JS ou PHP no seu navegador padrão).
+
