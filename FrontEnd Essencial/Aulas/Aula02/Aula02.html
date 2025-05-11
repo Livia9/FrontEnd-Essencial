@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Curriculum professor Serratec" />
+    <link rel="shortcut icon" href="./assets/drdavi.avif" type="foto davi brito" />
+    <title>Exercicio_02</title>
+  </head>
+  <body>
+    <header>
+      <h1>Professor Serratec</h1>
+      <p>Gosto de animes</p>
+
+      <section>
+        <h2>Imagem de perfil</h2>
+        <img 
+          src="./assets/memeprog.jpeg"  width="200" height="200"
+          alt="meme de prog" 
+        />
+      </section>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="#formacao"> Formação </a>
+          </li>
+          <li>
+            <a href="#hobbies"> Hobbies </a>
+          </li>
+
+          <li>
+            <a href="#contato"> Contato </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+<section id="formacao"> 
+<h2> Formacao Academica</h2>
+<dl>
+    <dt> Ensino Medio</dt>
+    <dd> Completo</dd>
+    <dt> Ensino Superior</dt>
+    <dd> Completo</dd>
+</dl>
+
+</section>
+<section id="hobbies">
+    <h2>Hobbies </h2>
+    <ul>
+        <li> Jogar videogame</li> 
+    <li> Viajar</li>
+    <li> Sair com os amigos</li>
+    </ul>
+</section>
+
+<section id="contato">
+    <h2> Contatos </h2>
+    <p>
+        <a href="https://www.facebook.com/" target="_blank"> Facebook</a>
+    </p>
+    <p>
+        <a href="https://www.Linkedin.com/" target="_blank"> Linkedin</a>
+    </p>
+    <p>
+        <a href="mailto:liviaraissinger@gmail.com" target="_blank"> Email</a>
+    </p>
+</section>
+<section>
+    <h2>Formulário de contato</h2>
+    <form>
+      <label for="nameUser">Nome</label>
+      <input 
+        type="text"
+        id="nameUser"
+        name="nameUser"
+        placeholder="Digite seu nome..."
+      />
+
+      <br/>
+
+      <label for="emailUser">E-mail</label>
+      <input 
+        type="email"
+        id="emailUser"
+        name="emailUser"
+        placeholder="Digite seu e-mail..."
+      />
+
+      <br/>
+
+      <label for="passwordUser">Senha</label>
+      <input 
+        type="password"
+        id="passwordUser"
+        name="passwordUser"
+        placeholder="Digite sua senha..."
+        pattern=".{8,}"
+        title="A senha precisa ter oito caracteres ou mais"
+      />
+
+      <!-- <label for="descriptionUser">Descrição</label> -->
+      <!-- <textarea id="descriptionUser" placeholder="Digite sua duvida"></textarea> -->
+      
+      <br/>
+
+      <label for="dateUser">Data</label>
+      <input 
+        type="date"
+        id="dateUser"
+        name="dateUser"
+      />
+
+      <br/>
+
+      <label for="checkUser">Marque as opções no checkbox</label>
+      <input 
+        type="checkbox"
+        id="checkUser"
+        name="checkUser"
+      />
+
+      <br/>
+
+      <label for="radioUser">Selecione uma opção</label>
+      <input 
+        type="radio"
+        id="radioUser"
+        name="radioUser"
+      />
+
+      <br/>
+
+      <button type="submit">
+        Enviar
+      </button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Professor Serratec. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>

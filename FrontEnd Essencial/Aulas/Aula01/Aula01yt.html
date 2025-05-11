@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="shortcut icon" href="./assets/graficprogemoji.webp" type="image/x-icon">
+</head>
+<body>
+    <h1> Aula 1 do youtube modificada</h1>
+    <div>
+        
+        <form> <!-- <form> formulario, sem ele as informacao nao vao p nosso arquivo de recebimento, o botao nem funcionaria -->
+    <input value="" id="emailUser" name="emailUser" placeholder="Digite seu email aqui" type="email"/>
+    <!-- O atributo value em um <input> do HTML serve para definir o valor inicial que esse campo vai ter quando a página carregar. -->
+    <input value="livia" id="exvalue" name="exvalue" placeholder="Digite seu nome:" type="text"/>
+    <input type="password" id="passwordUser" name="passwordUser" placeholder="Digite sua senha aqui" pattern=".{8,}" title="A senha precisa ter oito caracteres ou mais"/>
+
+    <button> Enviar </button>
+</form>
+ </div>
+</body>
+</html>
+<!-- 
+| Atributo       | Serve para...                                                       | Obrigatório?         |
+| -------------- | ------------------------------------------------------------------- | -------------------- |
+| `type`         | Define o tipo do input (texto, senha, email, etc.)                  | ✅ *Quase sempre*     |
+| `name`         | Define o nome que será usado para enviar o dado do input ao backend | ✅ *Para formulários* |
+| `value`        | Define o valor inicial (opcional)                                   | ❌                    |
+| `placeholder`  | Texto de dica antes do usuário digitar (opcional)                   | ❌                    |
+| `required`     | Torna o preenchimento obrigatório (opcional)                        | ❌                    |
+| `id` / `class` | Para estilizar ou usar com JS (opcional)                            | ❌                    | -->

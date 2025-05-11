@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula - 03</title>
+</head>
+<style>
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Valores margin, padding, border-radius */
+  /* 1° valor: top */
+  /* 2° valor: right */
+  /* 3° valor: bottom */
+  /* 4° valor: left */
+
+  #divVerde {
+    background-color: green;
+
+    /* Aplicando margin em todos os lados */
+    margin: 20px;
+
+    /* Aplicando margin em lados especificos */
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 80px;
+
+    /* Aplicando margin em lados especificos */
+    margin-top: 60px;
+    margin-right: 20px;
+    margin-bottom: 60px;
+    margin-left: 20px;
+
+    /* Aplicando arredondamento em lados especificos */
+    /* Regras: */
+    /* 1° valor: top-right: 50px; */
+    /* 2° valor bottom-right: 20px; */
+    /* 3° valor bottom-left: 50px; */
+    /* 4° valor top-left: 80px; */
+    border-radius: 10px 5px 7px 9px;
+
+    /* Aplicando margin em lados especificos */
+    margin: 10px 15px 5px 2px;
+  }
+
+  #divAzul {
+    background-color: blue;
+    padding: 20px;
+  }
+
+  div {
+    position: absolute;
+  }
+
+  .tamanhoDiv {
+    width: 50px;
+    height: 50px;
+  }
+
+  #divVermelha {
+    background-color: red;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+  }
+
+  #divVerdeSemMargin {
+    background-color: green;
+    top: 0;
+    left: 0;
+  }
+
+  #divVioleta {
+    background-color: violet;
+    left: 0;
+    bottom: 0;
+  }
+
+  #divAmarelo {
+    background-color: yellow;
+    right: 0;
+    bottom: 0;
+  }
+
+  #divAzulSemPadding {
+    background-color: blue;
+    top: 0;
+    right: 0;
+  }
+
+  img {
+    width: 25%;
+    height: 25%;
+    /* border-radius: 9999px; */
+    object-fit: cover;
+  }
+
+  @media(min-width: 768px) {
+    img {
+      width: 50%;
+      height: 50%;
+    }
+  }
+
+  @media(min-width: 1200px) {
+    img {
+      width: 175px;
+      height: 175px;
+    }
+  }
+
+  a:active {
+    background-color: "red";
+  }
+
+  p {
+      line-height: 13px; 
+      letter-spacing: 10px; 
+      word-spacing: 15px; 
+      text-indent: 3px; 
+    }
+
+    #divGradient {
+      background: linear-gradient(to right, red 40%, green, blue);
+      height: 50px;
+      width: 50px;
+    }
+
+    button {
+      box-shadow: 1px 1px 4px black;
+      border: 1px solid black;
+      border-style: solid;
+      border-color: blueviolet;
+      /* border-bottom: 1px; */
+      border-bottom-color: yellowgreen;
+      border-radius: 8px;
+      color: white;
+      /* background: #00000090; */
+      /* background: rgb(0, 0, 0, 0,9); */
+    }
+
+</style>
+<body>
+  <!-- <h1>Aula 03</h1> -->
+  
+  <!-- <div id="divVerde">Esta div é a verde</div> -->
+  <!-- <div id="divAzul">Esta div é a azul</div> -->
+
+  <!-- <div id="divVerdeSemMargin" class="tamanhoDiv"></div> -->
+  <!-- <div id="divVermelha" class="tamanhoDiv"></div> -->
+  <!-- <div id="divVioleta" class="tamanhoDiv"></div> -->
+  <!-- <div id="divAmarelo" class="tamanhoDiv"></div> -->
+  <!-- <div id="divAzulSemPadding" class="tamanhoDiv"></div> -->
+
+  <!-- <img 
+    id="profile" 
+    src="../assets/perfilsapo.jpg" 
+    alt="Foto perfil"
+  /> -->
+
+  <!-- <a href="">Link</a> -->
+
+  <!-- <p>Parque tecnologico</p> -->
+
+  <!-- <div id="divGradient"></div> -->
+
+  <button>Clique aqui</button>
+    
+</body>
+</html>

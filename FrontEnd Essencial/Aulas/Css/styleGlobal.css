@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+body{
+    --primeira-cor: #000;
+    --segunda-cor: #621fce;
+    background: linear-gradient(#621fce,#000,);
+    background-size: cover ;
+}

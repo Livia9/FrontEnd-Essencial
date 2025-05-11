@@ -1,0 +1,86 @@
+<!-- Melhorando o primeiro exercício HTML
+
+*Troque tags genéricas por tags semânticas
+Por que usar tags semânticas?
+Ajudam na acessibilidade (usuários com leitores de tela).
+Melhoram o SEO (Google entende melhor sua página).
+Código mais limpo e legível.
+
+2. Criar um menu de navegação
+4. Adicionar label para cada input
+-->
+<!-- faltou fazer -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Exercicio 2 de html Serratec" />
+    <meta name="author" content="Livia Raissinger" />
+    <link rel="shortcut icon" href="./assets/serrateclogopq.jpg" type="image/x-icon" />
+    <title>Html lista 2</title>
+  </head>
+
+  <body>
+<nav>
+    <h1>Lista 2 de html!</h1>
+    <p>Estou animada para aprender mais sobre frontend</p>
+    <ul>
+       <li> <a href="#senha"> Ir para o final da pagina </a></li>
+       <li> <a href="#sobre">Sobre</a></li>
+       <li> <a href="#contato">Contato</a></li> <!-- fazer contato e sobre-->
+       <li> <a href="https://www.globo.com/" target="_blank"> Jornal globo </a> </li>
+    </ul>
+    
+   </nav>
+    <hr /> <!-- add linha -->
+
+    <ul>
+      <li>lista nao ordenada!</li>
+      <li>lista nao</li>
+      <li>lista</li>
+    </ul>
+    <ol>
+      <li>lista ordenada!</li>
+      <li>amo</li>
+      <li>codar!</li>
+      
+      <!-- lista descritiva -->
+      <dl>
+        
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação usada para estruturar páginas na web.</dd>
+      
+        <dt>CSS</dt>
+        <dd>Linguagem de estilo usada para definir a aparência dos elementos HTML.</dd>
+      
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação que permite interatividade nas páginas web.</dd>
+      </dl>
+      
+    </ol>
+    <img
+      src="./assets/memeprog.jpeg"
+      alt='Meme de programação, "Quando você escreve 10 linhas de código sem pesquisar no Google: não é muito mas é trabalho honesto"'
+      width="300"
+      height="300"
+    />
+    <form>
+
+   
+    <div>
+      <input
+        name="password"
+        placeholder="Digite sua senha:"
+        type="password"
+        id="senha"
+      />
+      <button>Enviar</button>
+    </div>
+ </form>
+    <footer>
+      <p>&copy; 2025 Livia Raissinger Serratec. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
